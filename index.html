@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Nkosinathi Dhanda">
+    <meta name="description"
+        content="A clean, responsive results summary component built using vanilla HTML, CSS, and JavaScript.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results Summary Component</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/Syntax-Sangoma-Favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <main class="results-card">
+        <section class="results-card__header">
+            <h1 class="results-card__title center">Your Results</h1>
+
+            <div class="results-card__avg-group">
+                <p class="results-card__avg-result center"></p>
+                <p class="results-card__avg-denominator center">of 100</p>
+            </div>
+
+            <div class="results-card__summary-group">
+                <p class="results-card__impression center">Great</p>
+                <p class="results-card__description center">
+                    Your performance exceed 65% of the people conducting the
+                    test
+                    here!
+                </p>
+            </div>
+        </section>
+
+        <section class="results-card__content">
+            <h2 class="results-card__sub-title">Summary</h2>
+
+            <section class="results-card__results-container"></section>
+
+            <button class="results-card__continue-btn nowrap center">Continue</button>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
